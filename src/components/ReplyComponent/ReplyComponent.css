@@ -1,0 +1,25 @@
+.reply_body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  /* padding: 0.5rem 0.5rem 0.5rem 0.5rem; */
+  border-bottom: 1px solid #e0e0e0;
+  /* width:90vw; */
+}
+
+.reply_header {
+  margin: 5px;
+}
+
+.reply_form {
+  display: flex;
+  width: 90vw;
+  margin-right: -50em;
+}
+.cmt_input {
+  width: 10%;
+}
+.reply_list {
+  background-color: blueviolet;
+}
