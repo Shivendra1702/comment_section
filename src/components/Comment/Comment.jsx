@@ -1,6 +1,5 @@
 import { useState } from "react";
 import "./Comment.css";
-// import ReplyComponent from "../ReplyComponent/ReplyComponent";
 
 // eslint-disable-next-line react/prop-types
 const Comment = ({ comment }) => {

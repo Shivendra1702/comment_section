@@ -1,6 +1,6 @@
 // import { useState } from 'react'
 import "./App.css";
-import CommentSection from "./components/Comment_section/CommentSection";
+import CommentSection from "./components/CommentSection/CommentSection";
 function App() {
   return (
     <>
