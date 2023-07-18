@@ -1,19 +1,18 @@
 .comment {
   background-color: #f1f1f1;
-  padding: 1em;
-  margin: 1em;
+  padding: 2px;
+  margin: 10px;
   border-radius: 5px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* height: 100%; */
-  /* margin-right: -50em; */
 }
 
 .c_btn {
   width: auto;
-  padding: 10px;
-  margin: 0 1em;
+  padding: 4px;
+  margin: 0 10px;
+  border-radius: 2px;
 }
 
 .like_btn {
@@ -26,39 +25,41 @@
   background-color: lightblue;
 }
 
-.cmt {
-  background-color: aqua;
-  width: 40%;
-  padding: 2px;
-  overflow: scroll;
-  /* text-overflow: ellipsis; */
+textarea {
+  resize: none;
+  padding: 4px;
+  font-size: 1em;
 }
 
 .cs {
   width: 100%;
-  /* background-color: red; */
   display: flex;
-  /* flex-direction: column;
-     */
   justify-content: space-between;
-  padding: 10px;
+  align-items: center;
+  /* background-color: red; */
+  padding: 4px;
 }
 
 .reply {
-  width: 50%;
-  /* height:100px; */
-  padding: 10px;
-  background-color: rgb(138, 27, 27);
+  /* margin-top: 400px; */
+  width: 80%;
+  border-radius: 10px;
+  padding: 4px;
+  background-color: rgb(226, 226, 226);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  /* gap:2em; */
   flex-direction: column;
-}
-h4 {
-  padding: 10px;
+  margin: auto;
 }
 
-
-
-
-
+.reply_form {
+  width: 40%;
+  display: flex;
+  justify-content:center;
+  gap: 1em;
+  align-items: center;
+  /* background-color: red; */
+  padding: 4px;
+}
