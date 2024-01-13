@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.commentInput {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1em;
+  padding: 1em;
+}
+
+input {
+  padding: 0.5em;
+  /* color: black; */
+}
+
+button {
+  padding: 0.3em;
+  /* color: black; */
+  cursor: pointer;
+  border-radius: 0.5em;
+}
+
+.comments {
+  padding: 0.5em;
+  margin: 0.1em 0em 0.1em 1em;
+}
+.comment {
+  padding: 0.5em;
+  background-color: dimgrey;
+  width: 280px;
+  border-radius: 0.5em;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.replyInput{
+    width: 280px;
+    padding: 0.3em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
